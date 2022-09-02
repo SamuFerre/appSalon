@@ -1,0 +1,22 @@
+{
+    "name": "samu/app-salon_php_mvc_js_sass",
+    "description": "PHP 8, MVC, SQL, SASS, Gulp Project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "SamuFerre",
+            "email": "86030974+SamuFerre@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
